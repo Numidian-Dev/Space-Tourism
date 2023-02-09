@@ -1,0 +1,41 @@
+.crew {
+    @extend .home;
+    background: url(../assets/crew/background-crew-desktop.jpg) center/cover;
+}
+
+.title-crew {
+    @extend .title-destination;
+    margin: 80px 0px 60px 140px;
+}
+@media screen and (max-width: 1920px) {
+    .crew {
+        @extend .home;
+        background: url(../assets/crew/background-crew-desktop.jpg) center/cover;
+    }
+
+    .title-crew {
+        @extend .title-destination;
+        margin: 30px 0px 70px 70px;
+    }
+}
+@media screen and (max-width: 769px) {
+    .crew {
+        background: url(../assets/crew/background-crew-tablet.jpg) center/cover;
+    }
+
+    .title-crew {
+        margin: 30px 0px 0px 50px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .crew {
+        background: url(../assets/crew/background-crew-mobile.jpg) center/cover;
+    }
+
+    .title-crew {
+        margin: inherit;
+        text-align: center;
+        margin-top: 20px;
+    }
+}

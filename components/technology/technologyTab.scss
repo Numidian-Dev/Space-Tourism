@@ -1,0 +1,397 @@
+.container-tech {
+    display: flex;
+}
+
+.tab-tech {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: white;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: rgba(255, 255, 255, 0.25) 1px solid;
+    font-family: $Bellefair;
+    /* opacity: 0.25; */
+    margin-left: 90px;
+    margin-right: 80px;
+
+    &:hover {
+        border: rgb(255, 255, 255) 1px solid;
+    }
+}
+
+.tab-tech:nth-child(2) {
+    margin: 30px 0px 30px 90px;
+}
+.container-contents-tech {
+    width: 100%;
+}
+.active-tab-tech {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $Bellefair;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+
+.tech-describ {
+    display: none;
+    height: 303px;
+
+    width: 100%;
+    position: relative;
+
+    h2 {
+        color: $secondary;
+        font-family: $BarlowCondensed;
+        text-transform: uppercase;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    h1 {
+        color: white;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 64px;
+        text-transform: uppercase;
+    }
+    p {
+        color: $secondary;
+        width: 444px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        margin-top: 30px;
+    }
+
+    .describ-img {
+        width: 515px;
+        height: 527px;
+        position: absolute;
+        right: 0;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.tech-content-active {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media screen and (max-width: 1920px) {
+    .container-tech {
+        display: flex;
+    }
+
+    .tab-tech {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        color: white;
+        font-size: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: rgba(255, 255, 255, 0.25) 1px solid;
+        font-family: $Bellefair;
+        /* opacity: 0.25; */
+        margin-left: 90px;
+        margin-right: 80px;
+
+        &:hover {
+            border: rgb(255, 255, 255) 1px solid;
+        }
+    }
+
+    .tab-tech:nth-child(2) {
+        margin: 30px 0px 30px 90px;
+    }
+    .container-contents-tech {
+        width: 100%;
+    }
+    .active-tab-tech {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        color: rgb(0, 0, 0);
+        font-size: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: $Bellefair;
+        background-color: rgb(255, 255, 255);
+        border: none;
+    }
+
+    .tech-describ {
+        display: none;
+        height: 303px;
+
+        width: 100%;
+        position: relative;
+
+        h2 {
+            color: $secondary;
+            font-family: $BarlowCondensed;
+            text-transform: uppercase;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 2.7px;
+            font-weight: 400;
+            margin-bottom: 15px;
+        }
+        h1 {
+            color: white;
+            font-weight: 400;
+            font-size: 56px;
+            line-height: 64px;
+            text-transform: uppercase;
+        }
+        p {
+            color: $secondary;
+            width: 444px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 32px;
+            margin-top: 30px;
+        }
+
+        .describ-img {
+            width: 415px;
+            height: 427px;
+            position: absolute;
+            right: 0;
+            top: 20px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    .tech-content-active {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 769px) {
+    .container-tech {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .tabs-techs {
+        display: flex;
+        justify-content: space-between;
+        width: 210px;
+        height: auto;
+    }
+    .tab-tech {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        color: white;
+        font-size: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: rgba(255, 255, 255, 0.25) 1px solid;
+        font-family: $Bellefair;
+
+        margin-left: 0;
+        margin-right: 0;
+
+        margin: auto;
+
+        &:hover {
+            border: rgb(255, 255, 255) 1px solid;
+        }
+    }
+
+    .tab-tech:nth-child(2) {
+        margin: 00px 0px 0px 0px;
+    }
+    .container-contents-tech {
+        width: 100%;
+    }
+    .active-tab-tech {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        color: rgb(0, 0, 0);
+        font-size: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: $Bellefair;
+        background-color: rgb(255, 255, 255);
+        border: none;
+    }
+    .tech-describ {
+        display: none;
+        height: 303px;
+        margin-bottom: 50px;
+        width: 100%;
+        position: relative;
+        background-color: blue;
+
+        h2 {
+            font-size: 16px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        p {
+            width: 458px;
+            font-size: 16px;
+        }
+
+        .describ-img {
+            width: 100%;
+            height: 310px;
+            position: relative;
+            right: inherit;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    }
+
+    .tech-content-active {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .describ {
+        position: relative;
+        bottom: -150px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .container-tech {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .tabs-techs {
+        display: flex;
+        justify-content: space-between;
+        width: 210px;
+        height: auto;
+    }
+    .tab-tech {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        color: white;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: rgba(255, 255, 255, 0.25) 1px solid;
+        font-family: $Bellefair;
+
+        margin-left: 0;
+        margin-right: 0;
+
+        margin: auto;
+
+        &:hover {
+            border: rgb(255, 255, 255) 1px solid;
+        }
+    }
+
+    .tab-tech:nth-child(2) {
+        margin: 00px 0px 0px 0px;
+    }
+    .container-contents-tech {
+        width: 100%;
+    }
+    .active-tab-tech {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: $Bellefair;
+        background-color: rgb(255, 255, 255);
+        border: none;
+    }
+    .tech-describ {
+        display: none;
+        height: 170px;
+        margin-bottom: 30px;
+        width: 100%;
+        position: relative;
+
+        h2 {
+            font-size: 14px;
+
+            text-align: center;
+            letter-spacing: 2.3625px;
+            margin-bottom: 3px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 15px;
+            line-height: 25px;
+            width: 327px;
+            margin-top: 12px;
+        }
+
+        .describ-img {
+            width: 100%;
+            height: 170px;
+            position: relative;
+            right: inherit;
+            margin-top: 0px;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    }
+
+    .tech-content-active {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .describ {
+        position: relative;
+        bottom: -100px;
+    }
+}
